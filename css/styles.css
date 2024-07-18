@@ -2,11 +2,12 @@ body {
   font-family: "Lato", sans-serif;
 }
 .header {
-  position: fixed;
-  top: 0;
-  left: 0;
+  position: relative;
+  z-index: 1;
+  margin-bottom: -100px;
   width: 100%;
   padding-top: 56px;
+  background-color: transparent;
 }
 .container {
   max-width: 1110px;
@@ -45,6 +46,7 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  position: relative;
 }
 .hero-section {
 
@@ -102,4 +104,59 @@ body {
   border: none;
   background-color: #1B7DFF;
   padding: 15px 39px;
+}
+/*---------------------- BENEFITS ------------------------*/
+.benefits{
+  margin-left: 58px;
+  margin-right: 58px;
+  
+}
+.benefits-container {
+  padding: 100px;
+  box-shadow: 0 2px 20px 0 rgba(21, 24, 36, 0.16);
+  background: #fff;
+  position: relative;
+  z-index: 1;
+  margin-top: -100px;
+  padding: 100px;
+}
+.benefits-tittle {
+  font-weight: 500;
+  font-size: 35px;
+  color: #102746;
+  margin-bottom: 120px;
+}
+.benefits-list {
+  display: flex;
+  gap: 55px;
+}
+.benefits-item {
+}
+.benefits-icon{
+  margin-bottom: 37px;
+}
+.benefits-title-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 26px;
+}
+.benefits-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-bottom: 39px;
+}
+.benefits-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #006DFE;
+  position: relative;
+}
+.benefits-link span{
+  fill: #006DFE;
+  margin-left: 25px;
 }
