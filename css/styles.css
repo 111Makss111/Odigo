@@ -1,3 +1,105 @@
 body {
   font-family: "Lato", sans-serif;
 }
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 56px;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.header-container {
+  display: flex;
+}
+.header-logo {
+}
+.header-icon {
+  fill: #fff;
+  
+}
+.header-navigation {
+  display: flex;
+  margin-left: auto;
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 82px;
+}
+.header-list {
+}
+.header-link {
+  font-size: 18px;
+  color: #fff;
+  font-weight:400;
+  line-height: 24px;
+}
+/*-----------------------------  HERO  --------------------------*/
+.hero {
+  background-image: url(../img/Hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.hero-section {
+
+}
+.hero-tittle {
+  padding-top: 240px;
+  font-weight: 500;
+  font-size: 50px;
+  color: #fff;
+  margin-bottom: 22px;
+  width: 619px;
+}
+.hero-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  margin-bottom: 60px;
+  width: 546px;
+}
+.hero-input-list{
+  display: flex;
+  align-items: baseline;
+  gap: 60px;
+}
+.hero-input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  margin-bottom: 376px;
+  outline: none;
+  width: 297px;
+  box-sizing: border-box;
+  padding: 20px;
+  color: #fff;
+  position: relative;
+  background: url(../svg/Oval.svg);
+  background-repeat: no-repeat;
+  background-position:left;
+  text-align: center;
+}
+.hero-input::before{  
+ 
+
+}
+.hero-input::placeholder{
+  color: #fff;
+  margin-bottom: 10px;
+  padding-left: 23px;
+}
+.hero-btn {
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+  border: none;
+  background-color: #1B7DFF;
+  padding: 15px 39px;
+}
