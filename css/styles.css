@@ -10,7 +10,7 @@ body {
   background-color: transparent;
 }
 .container {
-  max-width: 1110px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 0 16px;
 }
@@ -190,35 +190,7 @@ background-color: #006DFE;
   margin-left: 25px;
 }
 
-.description-list {
-  display: flex;
-  gap: 100px;
-}
-.description-item {
-}
-.description-icon {
-}
-.description-tittle-text {
-  font-weight: 500;
-  font-size: 30px;
-  line-height: 40px;
-  color: #102746;
-  margin-bottom: 85px;
-}
-.description-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  color: #102746;
-  margin-bottom: 58px;
-}
-.description-link {
-  margin-bottom: 126px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 26px;
-  color: #006DFE;
-}
+
 .town-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -296,4 +268,60 @@ background-color: #006DFE;
   transform: scale(0.9); 
   transition: 2.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-
+/*-------------------- DESCRIPTION ----------------------- */
+.inspired-description{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 108px;
+  
+}
+.description-tittle-text {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 40px;
+  color: #102746;
+  margin-bottom: 85px;
+  margin-top: 26px;
+}
+.description-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #102746;
+  margin-bottom: 58px;
+}
+.description-link {
+  margin-bottom: 126px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #006DFE;
+}
+.description-prefecture{
+  display: flex;
+}
+.description-neighborhood{
+  display: flex;
+}
+.description-icon-prefecture{
+  margin-right: 108px;
+  margin-left: 43px;
+}
+.description-icon-picture{
+  margin-left: 108px;
+  margin-right: 43px;
+}
+.description-wrap{
+  display: flex;
+  flex-direction: column;
+}
+.description-link span{
+  fill: #006DFE;
+  margin-left: 25px;
+}
+   .right{
+    margin-right: 43px;
+  }
+  .left{
+margin-left: 43px;
+  }
