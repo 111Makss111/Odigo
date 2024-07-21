@@ -291,7 +291,6 @@ background-color: #006DFE;
   margin-bottom: 58px;
 }
 .description-link {
-  margin-bottom: 126px;
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -325,3 +324,121 @@ background-color: #006DFE;
   .left{
 margin-left: 43px;
   }
+  /*-------------------------------- VISIT -------------------------------*/
+  .visit {
+    margin-top: 139px;
+  }
+  .visit-tittle {
+    font-weight: 500;
+    font-size: 35px;
+    color: #102746;
+    position: relative;
+    margin-bottom: 71px;
+  }
+  .visit-tittle::before{
+    content: "";
+    bottom: -7px;
+    left: 0;
+    width: 283px;
+    height: 2px;
+    position: absolute;
+    background-color: #006DFE;
+  }
+  .visit-list {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 58px 52px;
+    
+  }
+  .visit-item {
+    position: relative;
+  }
+  .visit-picture {
+    margin-bottom: 45px;
+    
+  }
+  .visit-text {
+    width: 391px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #102746;
+    margin-bottom: 31px;
+  }
+  .visit-link {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    background-color: #006DFE;
+    padding: 12px 19px;
+  }
+  .visit-picture-subscribe {
+    background: rgba(21, 24, 36, 0.6);
+    width: 386px;
+    height: 55px; 
+    position: absolute;
+    content: "";
+    top: 325px;
+    display: flex;
+    align-items: center;
+  }
+  .visit-picture-subscribe-tittle {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    color: #fff;
+  margin-left: 25px;
+  }
+  .visit-picture-subscribe-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #fff;
+  }
+  .visit-picture-subscribe-icon {
+    fill: #fff;
+    cursor: pointer;
+  }
+  .visit-picture-subscribe-list{
+    margin-left: auto;
+    display: flex;
+    gap: 14px;
+  }
+  .visit-picture-subscribe-item{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+  }
+  .subscribe-icon{
+    margin-right: 25px;
+  }
+
+  .video-container {
+    position: relative;
+    width: 1440px;
+    margin: auto;
+    margin-top: 145px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+.video-container.paused .play-button {
+    display: block;
+}
