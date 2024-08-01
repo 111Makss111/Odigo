@@ -442,3 +442,39 @@ video {
 .video-container.paused .play-button {
     display: block;
 }
+/*---------------------- FOOTER ------------------------------*/
+.footer {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #0E1D28;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-left: 200px;
+}
+.footer-list {
+  display: block;
+  margin-left: auto;
+}
+.footer-list:last-child{
+  margin-right: 200px;
+}
+.footer-item {
+  margin-top: 5px;
+}
+.footer-link {  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+ 
+}
+.footer-link-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+}
